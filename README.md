@@ -9,7 +9,7 @@ npm install git+https://github.com/shootshoot/backbone-mongoose-crud.git
 
 ## Dependencies
 
-* npm install [git+https://github.com/shootshoot/mongoose-helper.git](https://github.com/shootshoot/mongoose-helper)
+* The shootshoot's [mongoose-helper](https://github.com/shootshoot/mongoose-helper)
 
 ## How to use it with ExpressJS
 ```js
