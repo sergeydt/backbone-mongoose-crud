@@ -1,6 +1,12 @@
 backbone-mongoose-crud
 ======================
 
+Provide a REST API for Mongoose models, in order to use it with Backbone.
+Express version is tested with node 0.10.15. It may also work on 0.8+.
+
+Action Hero version, is tested with node 0.10.15 and [actionHero](https://github.com/evantahler/actionHero) v6.2.3.
+
+
 ## Install
 
 ```sh
