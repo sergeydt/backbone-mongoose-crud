@@ -26,6 +26,8 @@ npm install git+https://github.com/shootshoot/backbone-mongoose-crud.git
 
 ## How to use
 
+You must define your mongoose models.
+
 ### with ExpressJS
 ```js
 app.use('/CRUD', require('backbone-mongoose-crud').express);
@@ -41,4 +43,6 @@ exports.action.run = function(api, connection, next) {
     this.beforeRun(api, connection, next);
 }
 ```
+
+Replace 'Posts' by the mongoose model name. For the ActionHeroJS version you must create one action per model.
 
