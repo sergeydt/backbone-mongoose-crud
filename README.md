@@ -9,6 +9,9 @@ You can use it with [actionHeroJS](https://github.com/evantahler/actionHero) or 
 * Action Hero version, is tested with node 0.10.15 and [actionHero](https://github.com/evantahler/actionHero) v6.2.3.
 
 
+BONUS : 
+The lib/file.js contains an action hero example to manage file upload. It also provide an API to get a resized image on the fly with width and height parameter.
+
 ## Install
 
 ```sh
@@ -23,6 +26,8 @@ npm install git+https://github.com/shootshoot/backbone-mongoose-crud.git
 
 - [x] Refactor expressJS version
 - [ ] Refactor actionHeroJS version to use the same base as the expressJS version
+- [ ] Refactor file.js, and make an expressJS version
+- [ ] add images effect on file.js
 
 ## How to use
 
