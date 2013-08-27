@@ -21,8 +21,8 @@ npm install git+https://github.com/shootshoot/backbone-mongoose-crud.git
 
 ## TODO
 
-* [x] Refactor expressJS version
-* [ ] Refactor actionHeroJS version to use the same base as the expressJS version
+- [x] Refactor expressJS version
+- [ ] Refactor actionHeroJS version to use the same base as the expressJS version
 
 ## How to use
 
