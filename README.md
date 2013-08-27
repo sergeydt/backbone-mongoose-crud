@@ -13,7 +13,7 @@ npm install git+https://github.com/shootshoot/backbone-mongoose-crud.git
 
 ## How to use it with ExpressJS
 ```js
-app.all('/CRUD/:modelName', require('backbone-mongoose-crud').express);
+app.use('/CRUD', require('backbone-mongoose-crud').express);
 ```
 
 ## How to use it with ActionHeroJS
