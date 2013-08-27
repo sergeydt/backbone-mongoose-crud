@@ -9,7 +9,10 @@
   "main": "./lib/main",
   "dependencies": {
     "mongoose": "~3.6.18",
-    "mongoose-helper": "git+https://github.com/shootshoot/mongoose-helper.git"
+    "mongoose-helper": "git+https://github.com/shootshoot/mongoose-helper.git",
+    "mime": "~1.2.10",
+    "gm": "~1.11.0",
+    "formidable": "~1.0.14"
   },
   "devDependencies": {},
   "optionalDependencies": {},
