@@ -10,7 +10,7 @@ You can use it with [actionHeroJS](https://github.com/evantahler/actionHero) or 
 
 
 BONUS : 
-The lib/file.js contains an action hero example to manage file upload. It also provide an API to get a resized image on the fly with width and height parameter.
+The lib/file.js contains an action for ActionHeroJS to manage file upload. It also provide an API to get a resized image on the fly with width and height parameter.
 
 ## Install
 
