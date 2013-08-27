@@ -19,12 +19,19 @@ npm install git+https://github.com/shootshoot/backbone-mongoose-crud.git
 
 * The shootshoot's [mongoose-helper](https://github.com/shootshoot/mongoose-helper)
 
-## How to use it with ExpressJS
+## TODO
+
+* [x] Refactor expressJS version
+* [ ] Refactor actionHeroJS version to use the same base as the expressJS version
+
+## How to use
+
+### with ExpressJS
 ```js
 app.use('/CRUD', require('backbone-mongoose-crud').express);
 ```
 
-## How to use it with ActionHeroJS
+### with ActionHeroJS
 
 In an action file
 ```js
