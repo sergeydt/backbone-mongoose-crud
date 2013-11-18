@@ -32,26 +32,26 @@ if ('development' == app.get('env')) {
 }
 
 
-//app.all('/CRUD/:modelName/:_id?', function (req, res) {
-//    var modelName = req.param('modelName') || false;
-//    console.log('req.body', req.body)
-//    var model = req.param('model') ? JSON.parse(req.param('model')) : req.body || {};
-//    var _id = req.param('_id') || false;
-//
-//    if (_id !== false) {
-//        model._id = _id
-//    }
-//
-//    if (mongoose.models.hasOwnProperty(modelName)) {
-//        console.log('here', modelName, req.method, model)
-//        require('./model')(modelName, req.method, model, function (ret) {
-//            res.json(ret);
-//        });
-//    }
-//    else {
-//        res.json({error: true, message: 'no model (' + modelName + ') found'});
-//    }
-//});
+app.all('/CRUD/:modelName/:_id?', function (req, res) {
+    var modelName = req.param('modelName') || false;
+    console.log('req.body', req.body)
+    var model = req.param('model') ? JSON.parse(req.param('model')) : req.body || {};
+    var _id = req.param('_id') || false;
+
+    if (_id !== false) {
+        model._id = _id
+    }
+
+    if (mongoose.models.hasOwnProperty(modelName)) {
+        console.log('here', modelName, req.method, model)
+        require('./model')(modelName, req.method, model, function (ret) {
+            res.json(ret);
+        });
+    }
+    else {
+        res.json({error: true, message: 'no model (' + modelName + ') found'});
+    }
+});
 
 // Start server
 http.createServer(app).listen(app.get('port'), function () {
